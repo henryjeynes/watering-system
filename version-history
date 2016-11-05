@@ -4,3 +4,4 @@ BOARDS:
 	
 CODE:
 	0.1a: initial version. should not be used for watering of plants yet
+	0.1b2: slightly modified version of 0.1a, with slightly lower power consumption and removal of useless variables

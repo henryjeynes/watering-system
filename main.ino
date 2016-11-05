@@ -11,7 +11,7 @@
    version will be available later on for micros with 2k or
    less program space.
 
-   If you are just using a Hydro Mk I, you can just upload
+   If you are just using a Hydro board, you can just upload
    this code without making any changes.
 
    This code is unpolished and unfinished, and it is missing
@@ -43,7 +43,7 @@ void setup() {
   Serial.begin(9600); //this can also be set to 57600, 115200, etc. but 9600 baud should be enough
 
   if (digitalRead(RS1) == 0 && digitalRead(RS2) == 0) {
-    //do nothing
+    //do nothing for now
   }
   digitalWrite(PUMP1, HIGH);
   digitalWrite(PUMP2, HIGH);
@@ -91,18 +91,16 @@ void loop() {
 }
 
 void idleBlink() {
-  unsigned long currentMillis = millis();
-
-  if (currentMillis - previousMillis >= interval) {
-    previousMillis = currentMillis;
-
-    if (ledState == LOW) {
-      ledState = HIGH;
+  uint32_t currentMillis = millis();
+  if (currentMillis > nextMillis) {
+    if (digitalRead(L)) {
+      digitalWrite(L, LOW);
+      nextMillis = currentMillis + offInterval;
     }
     else {
-      ledState = LOW;
+      digitalWrite(L, HIGH);
+      nextMillis = currentMillis + onInterval;
     }
-    digitalWrite(L, ledState);
   }
 }
 

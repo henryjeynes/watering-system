@@ -1,0 +1,6 @@
+BOARDS:
+	0.1a: not released. initial version. missing power jack, but otherwise works.
+	0.1b: power jack added. untested
+	
+CODE:
+	0.1a: initial version. should not be used for watering of plants yet

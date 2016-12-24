@@ -6,4 +6,4 @@ CODE:
 	0.1a: very first version, not released
 	0.1b: initial version. should not be used for watering of plants yet
 	0.1b2: slightly modified version of 0.1b, with slightly lower power consumption and removal of useless variables
-	0.1c: details yet to come. WIP
+	0.1c: removed code for pump 2. unreleased, WIP

@@ -2,6 +2,8 @@ BOARDS:
 	0.1a: not released. initial version. missing power jack, but otherwise works.
 	0.1b: power jack added. untested
 	0.2a: "rough draft" release. total redesign with onboard pump switching
+	0.3a: another redesign, not released
+	0.3b: polished version of 0.3b with standard 0.1" headers, but polarized headers should work too. untested
 	
 CODE:
 	0.1a: very first version, not released

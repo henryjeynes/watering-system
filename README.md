@@ -11,4 +11,3 @@ TODO:
   -Create a lite version for Tiny24 or similar, and another version for 7+ individual plants
   -Create a new board for Mega code. The Mega88 can only work with 6 watering sensors
   -Add individual watering. The code currently uses one pump for both plants
-  -Design new board with built-in pump control (probably MOSFETs)

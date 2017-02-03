@@ -1,12 +1,13 @@
 BOARDS:
-	0.1a: not released. initial version. missing power jack, but otherwise works.
-	0.1b: power jack added. untested
-	0.2a: "rough draft" release. total redesign with onboard pump switching
-	0.3a: another redesign, not released
-	0.3b: polished version of 0.3b with standard 0.1" headers, but polarized headers should work too. untested
+	0.1a: Initial version. missing power jack, but otherwise works. Not released
+	0.1b: Power jack added. Untested
+	0.2a: "Rough draft" release. Total redesign with onboard pump switching. Untested
+	0.3a: Another redesign, not released
+	0.3b: Polished version of 0.3a with standard 0.1" headers, but polarized headers should work too. Tested and proven.
 	
 CODE:
-	0.1a: very first version, not released
-	0.1b: initial version. should not be used for watering of plants yet
-	0.1b2: slightly modified version of 0.1b, with slightly lower power consumption and removal of unused variables
-	0.1c: removed code for pump 2. unreleased, WIP
+	0.1a: Very first version, not released
+	0.1b: Initial version. Should not be used for watering of plants yet
+	0.1b2: Slightly modified version of 0.1b, with slightly lower power consumption and removal of unused variables
+	0.1c: Removed code for pump 2. Not released
+	0.2a: Put back code for pump 2, because the newest board supports it. WIP

@@ -3,7 +3,9 @@ BOARDS:
 	0.1b: Power jack added. Untested
 	0.2a: "Rough draft" release. Total redesign with onboard pump switching. Untested
 	0.3a: Another redesign, not released
-	0.3b: Polished version of 0.3a with standard 0.1" headers, but polarized headers should work too. Tested and proven.
+	0.3b: Polished version of 0.3a with standard 0.1" headers, but polarized headers should work too. Tested NOT working.
+	0.3c: Fixed MOSFET issue from 0.3c. Unreleased, tested NOT working.
+	0.3d: Fixed yet another MOSFET issue, added mounting holes. Schematic tested, board not yet tested.
 	
 CODE:
 	0.1a: Very first version, not released

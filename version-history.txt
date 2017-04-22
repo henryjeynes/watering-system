@@ -1,15 +1,24 @@
 BOARDS:
-	0.1a: Initial version. missing power jack, but otherwise works. Not released
-	0.1b: Power jack added. Untested
-	0.2a: "Rough draft" release. Total redesign with onboard pump switching. Untested
-	0.3a: Another redesign, not released
-	0.3b: Polished version of 0.3a with standard 0.1" headers, but polarized headers should work too. Tested NOT working.
-	0.3c: Fixed MOSFET issue from 0.3c. Unreleased, tested NOT working.
-	0.3d: Fixed yet another MOSFET issue, added mounting holes. Schematic tested, board not yet tested.
+	0.1:
+		0.1a: Initial version. missing power jack, but otherwise works. Not released
+		0.1b: Power jack added. Untested
+	0.2:
+		0.2a: "Rough draft" release. Total redesign with onboard pump switching. Untested
+	0.3:
+		0.3a: Another redesign, not released
+		0.3b: Polished version of 0.3a with standard 0.1" headers, but polarized headers should work too. Tested NOT working.
+		0.3c: Fixed MOSFET issue from 0.3c. Unreleased, tested NOT working.
+		0.3d: Fixed yet another MOSFET issue, added mounting holes. Schematic tested, board not tested.
+	0.4:
+		0.4a: KiCad redesign. EAGLE boards are no longer available.
 	
 CODE:
-	0.1a: Very first version, not released
-	0.1b: Initial version. Should not be used for watering of plants yet
-	0.1b2: Slightly modified version of 0.1b, with slightly lower power consumption and removal of unused variables
-	0.1c: Removed code for pump 2. Not released
-	0.2a: Put back code for pump 2, because the newest board supports it. WIP
+	0.1:
+		0.1a: Very first version, not released
+		0.1b: Initial version. Should not be used for watering of plants yet
+		0.1b2: Slightly modified version of 0.1b, with slightly lower power consumption and removal of unused variables
+		0.1c: Removed code for pump 2. Not released
+	0.2:
+		0.2a: Put back code for pump 2, because the newest board supports it. Unreleased
+	0.3:
+		0.3a: Added EEPROM-stored settings. WIP

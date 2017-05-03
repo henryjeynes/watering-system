@@ -1,15 +1,15 @@
 # watering-system
-This is an automatic plant watering system for an Arduino. This is a mostly experimental repository, and the code and board files within may not work correctly.
+Automatic watering system based on ATmegaxx8 microcontrollers.
 
-DO NOT use the code and boards available here for watering plants until version 1.0a is released, or until the boards and code are confirmed to work.
+Using the code or boards is not currently recommended for long-term use.
 
 
 
 TODO:
-(items in **bold** will be dealt with in the next release. Items which have been dealt with are ~~struck through~~.
+(items in **bold** are scheduled for the next release. Items which have been dealt with are ~~struck through~~.)
   * **Add EEPROM-stored settings, which can be changed over the serial port**
   * Add sleep code for lower power consumption
-  * Create a lite version for Tiny24 or similar, and another version for 7+ individual plants
-  * Create a new board for Mega code. The Mega88 can only work with 6 watering sensors
   * ~~Add individual watering. The code currently uses one pump for both plants~~
   * Replace linear regulator with switching
+  * Add optional float switch for water tank
+  * Add optional voltage sensing for batteries (with settings for various chemistries)

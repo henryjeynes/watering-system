@@ -10,7 +10,8 @@ BOARDS:
 		0.3c: Fixed MOSFET issue from 0.3c. Unreleased, tested NOT working.
 		0.3d: Fixed yet another MOSFET issue, added mounting holes. Schematic tested, board not tested.
 	0.4:
-		0.4a: KiCad redesign. EAGLE boards are no longer available.
+		0.4a: KiCad redesign. EAGLE boards are no longer available. Not released
+		0.4b: Tidying-up of board, some fixes. Untested
 	
 CODE:
 	0.1:
@@ -21,4 +22,4 @@ CODE:
 	0.2:
 		0.2a: Put back code for pump 2, because the newest board supports it. Unreleased
 	0.3:
-		0.3a: Added EEPROM-stored settings. WIP
+		0.3a: WIP

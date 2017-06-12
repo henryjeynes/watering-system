@@ -7,7 +7,7 @@ Using the code or boards is not currently recommended for long-term use.
 
 TODO:
 (items in **bold** are scheduled for the next release. Items which have been dealt with are ~~struck through~~.)
-  * **Add EEPROM-stored settings, which can be changed over the serial port**
+  * Add EEPROM-stored settings, which can be changed over the serial port
   * Add sleep code for lower power consumption
   * ~~Add individual watering. The code currently uses one pump for both plants~~
   * Replace linear regulator with switching

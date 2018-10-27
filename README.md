@@ -1,4 +1,6 @@
 # watering-system
+
+**This project is on hold for the moment. The boards, schematics, and code in this repo are not guaranteed to work. Please let me know if you have any questions about the project.**
 Automatic watering system based on ATmegaxx8 microcontrollers.
 
 Using the code or boards is not currently recommended for long-term use.
